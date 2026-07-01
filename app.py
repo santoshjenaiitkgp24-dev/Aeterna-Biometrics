@@ -98,6 +98,22 @@ div.stButton > button:hover {
     line-height: 1.3 !important;
 }
 
+/* This targets the titles (h3, h4, h6) inside your info-card */
+div.info-card h3, div.info-card h4, div.info-card h6 {
+    color: #0F172A !important; /* Force them to be Dark Slate */
+    font-size: 28px !important; /* Make them big */
+    font-weight: 800 !important; /* Make them thick */
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+    display: block !important;
+}
+
+div.info-card h6 {
+    color: #00D1FF !important; /* Neon Blue */
+    font-size: 16px !important;
+    letter-spacing: 2px !important;
+}
+
 .result-card {
     background: #F8FDFF !important;
     padding: 30px !important;
